@@ -1,0 +1,15 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="ThemeControlForegroundBaseHighBrush" Color="{ThemeResource SystemBaseHighColor}"></SolidColorBrush>
+
+    <!-- Controls -->
+
+    <AcrylicBrush x:Key="AcrylicNanoleaf" TintColor="#3fae29" Opacity="75" FallbackColor="#4f664b"/>
+
+    <!-- Ink -->
+    <SolidColorBrush x:Key="InkCanvasBackground" Color="#FFFFFF"></SolidColorBrush>
+</ResourceDictionary>
+
+    

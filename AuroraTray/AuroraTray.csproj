@@ -113,12 +113,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AuroraSharp\AuroraSharp.csproj">
-      <Project>{09e3c983-ef6f-4d26-bfbf-14fe577bf8a0}</Project>
-      <Name>AuroraSharp</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Power - Sleep.png" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\plant_PKo_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuroraSharp_netframework\AuroraSharp_.csproj">
+      <Project>{09e3c983-ef6f-4d26-bfbf-14fe577bf8a0}</Project>
+      <Name>AuroraSharp_</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

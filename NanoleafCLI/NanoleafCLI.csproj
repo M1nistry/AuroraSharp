@@ -90,9 +90,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AuroraSharp\AuroraSharp.csproj">
+    <ProjectReference Include="..\AuroraSharp_netframework\AuroraSharp_.csproj">
       <Project>{09e3c983-ef6f-4d26-bfbf-14fe577bf8a0}</Project>
-      <Name>AuroraSharp</Name>
+      <Name>AuroraSharp_</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -58,7 +58,7 @@ namespace AuroraTray
 		{
 			var result = await ProbeForAuroras();
 
-			_aurora = new Aurora(result.IPAddress, "Qxs6JjRa4P2nANiZAYhClZmcslQfVl1t");
+			_aurora = new Aurora(result.IPAddress, "W3xbAQykPcUPVIKJ0Iv5QNPBU3vWPEOy");
 
 			var menu = new ContextMenuStrip();
 

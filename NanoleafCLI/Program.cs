@@ -54,7 +54,7 @@ namespace NanoleafCLI
 			var aurora = new Aurora(address, authToken);
 			
 			var shouldShowHelp = false;
-			var dumpInfo = false;
+			var dumpInfo = true;
 			var listEffects = false;
 			string newEffect = null;
 			string mode = null;
